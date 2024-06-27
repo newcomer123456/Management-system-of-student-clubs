@@ -1,6 +1,9 @@
 import django_setup
 from main.models import Student, Club, Event, EventAttendees
 
+from datetime import datetime
+
+
 def add_student():
     first_name = input("Введіть ім'я: ")
     last_name = input("Введіть прізвище: ")
